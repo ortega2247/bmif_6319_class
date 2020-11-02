@@ -1,0 +1,12 @@
+name: pysbviz
+channels:
+  - conda-forge
+  - alubbock
+dependencies:
+  - python=3.6
+  - jupyter
+  - pysb
+  - pip
+  - pip:
+      - python-louvain
+      - pyvipr
